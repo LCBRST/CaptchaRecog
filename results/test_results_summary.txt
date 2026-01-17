@@ -1,0 +1,27 @@
+CAPTCHA MODEL TESTING RESULTS SUMMARY
+==================================================
+
+KNN:
+  Accuracy: 0.8200
+  Correct: 82/100
+  Total time: 3.47s
+  Average time: 34.7ms
+
+SVM:
+  Accuracy: 0.8300
+  Correct: 83/100
+  Total time: 1.38s
+  Average time: 13.8ms
+
+Random Forest:
+  Accuracy: 0.9100
+  Correct: 91/100
+  Total time: 4.04s
+  Average time: 40.4ms
+
+CNN:
+  Accuracy: 0.8000
+  Correct: 80/100
+  Total time: 21.67s
+  Average time: 216.7ms
+

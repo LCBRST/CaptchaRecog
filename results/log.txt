@@ -1,0 +1,672 @@
+============================================================
+STARTING MODEL TESTING...
+============================================================
+
+Testing 100 samples with models: KNN, SVM, Random Forest, CNN
+
+Sample 1/100: True text='47PP', Complexity=hard
+  KNN            : 47PP (Confidence: 1.000, Time: 33.6ms) ✓
+  SVM            : 47PP (Confidence: 0.960, Time: 14.3ms) ✓
+  Random Forest  : 47PP (Confidence: 0.730, Time: 39.2ms) ✓
+  CNN            : 47PP (Confidence: 0.999, Time: 206.7ms) ✓
+
+Sample 2/100: True text='WAUB', Complexity=hard
+  KNN            : WAUB (Confidence: 1.000, Time: 33.2ms) ✓
+  SVM            : WAUB (Confidence: 0.909, Time: 13.1ms) ✓
+  Random Forest  : WAUB (Confidence: 0.710, Time: 34.3ms) ✓
+  CNN            : V4UB (Confidence: 0.871, Time: 206.3ms) ✗
+
+Sample 3/100: True text='X8R5', Complexity=hard
+  KNN            : X8P5 (Confidence: 0.917, Time: 33.5ms) ✗
+  SVM            : X8R5 (Confidence: 0.961, Time: 13.4ms) ✓
+  Random Forest  : X8R5 (Confidence: 0.802, Time: 38.3ms) ✓
+  CNN            : X8R5 (Confidence: 1.000, Time: 212.0ms) ✓
+
+Sample 4/100: True text='HMQ9', Complexity=simple
+  KNN            : HMQ9 (Confidence: 1.000, Time: 36.7ms) ✓
+  SVM            : HMQ9 (Confidence: 0.959, Time: 13.1ms) ✓
+  Random Forest  : HMQ9 (Confidence: 0.995, Time: 33.8ms) ✓
+  CNN            : HMQ9 (Confidence: 1.000, Time: 200.6ms) ✓
+
+Sample 5/100: True text='R4S8', Complexity=simple
+  KNN            : R4S8 (Confidence: 1.000, Time: 33.9ms) ✓
+  SVM            : R4S8 (Confidence: 0.984, Time: 13.0ms) ✓
+  Random Forest  : R4S8 (Confidence: 1.000, Time: 34.4ms) ✓
+  CNN            : R4S8 (Confidence: 1.000, Time: 299.7ms) ✓
+
+Sample 6/100: True text='73KG', Complexity=simple
+  KNN            : 73KG (Confidence: 1.000, Time: 34.4ms) ✓
+  SVM            : 73KG (Confidence: 0.978, Time: 14.1ms) ✓
+  Random Forest  : 73KG (Confidence: 1.000, Time: 54.0ms) ✓
+  CNN            : 73KG (Confidence: 1.000, Time: 226.0ms) ✓
+
+Sample 7/100: True text='PZH3', Complexity=hard
+  KNN            : PZH3 (Confidence: 1.000, Time: 33.4ms) ✓
+  SVM            : PZH3 (Confidence: 0.995, Time: 13.5ms) ✓
+  Random Forest  : PZH3 (Confidence: 0.920, Time: 55.3ms) ✓
+  CNN            : RZH3 (Confidence: 0.875, Time: 212.4ms) ✗
+
+Sample 8/100: True text='C64V', Complexity=simple
+  KNN            : C64V (Confidence: 1.000, Time: 37.5ms) ✓
+  SVM            : C64V (Confidence: 0.978, Time: 20.1ms) ✓
+  Random Forest  : C64V (Confidence: 1.000, Time: 70.3ms) ✓
+  CNN            : C64V (Confidence: 1.000, Time: 259.5ms) ✓
+
+Sample 9/100: True text='EWYH', Complexity=hard
+  KNN            : BWYH (Confidence: 0.833, Time: 34.2ms) ✗
+  SVM            : BWXH (Confidence: 0.734, Time: 14.0ms) ✗
+  Random Forest  : BWYH (Confidence: 0.675, Time: 39.9ms) ✗
+  CNN            : BWYH (Confidence: 0.902, Time: 205.7ms) ✗
+
+Sample 10/100: True text='EVEE', Complexity=medium
+  KNN            : EVEE (Confidence: 1.000, Time: 32.9ms) ✓
+  SVM            : EVEE (Confidence: 0.978, Time: 13.2ms) ✓
+  Random Forest  : EVEE (Confidence: 0.878, Time: 34.1ms) ✓
+  CNN            : BVEE (Confidence: 0.900, Time: 202.6ms) ✗
+
+Sample 11/100: True text='WXSG', Complexity=hard
+  KNN            : W7SG (Confidence: 0.750, Time: 33.4ms) ✗
+  SVM            : WXSG (Confidence: 0.740, Time: 13.1ms) ✓
+  Random Forest  : WXSG (Confidence: 0.733, Time: 43.0ms) ✓
+  CNN            : WXSG (Confidence: 0.978, Time: 219.2ms) ✓
+
+Sample 12/100: True text='9ESL', Complexity=hard
+  KNN            : 9BSL (Confidence: 0.833, Time: 38.6ms) ✗
+  SVM            : 9FSL (Confidence: 0.784, Time: 14.0ms) ✗
+  Random Forest  : 9ESL (Confidence: 0.785, Time: 33.8ms) ✓
+  CNN            : 9ESL (Confidence: 0.896, Time: 205.6ms) ✓
+
+Sample 13/100: True text='XWNZ', Complexity=hard
+  KNN            : XWNZ (Confidence: 0.917, Time: 33.1ms) ✓
+  SVM            : XWNZ (Confidence: 0.833, Time: 14.6ms) ✓
+  Random Forest  : XWNZ (Confidence: 0.647, Time: 59.2ms) ✓
+  CNN            : XWNZ (Confidence: 0.975, Time: 200.9ms) ✓
+
+Sample 14/100: True text='3AM7', Complexity=simple
+  KNN            : 3AM7 (Confidence: 1.000, Time: 43.3ms) ✓
+  SVM            : 3AM7 (Confidence: 0.982, Time: 17.5ms) ✓
+  Random Forest  : 3AM7 (Confidence: 1.000, Time: 57.3ms) ✓
+  CNN            : 3AM7 (Confidence: 1.000, Time: 201.6ms) ✓
+
+Sample 15/100: True text='SGZW', Complexity=simple
+  KNN            : SGZW (Confidence: 1.000, Time: 33.5ms) ✓
+  SVM            : SGZW (Confidence: 0.972, Time: 13.3ms) ✓
+  Random Forest  : SGZW (Confidence: 1.000, Time: 38.7ms) ✓
+  CNN            : SGZW (Confidence: 1.000, Time: 203.6ms) ✓
+
+Sample 16/100: True text='VBLW', Complexity=simple
+  KNN            : VBLW (Confidence: 1.000, Time: 33.5ms) ✓
+  SVM            : VBLW (Confidence: 0.976, Time: 12.9ms) ✓
+  Random Forest  : VBLW (Confidence: 1.000, Time: 40.5ms) ✓
+  CNN            : VBLW (Confidence: 1.000, Time: 199.3ms) ✓
+
+Sample 17/100: True text='B5BL', Complexity=hard
+  KNN            : B5BL (Confidence: 0.833, Time: 33.0ms) ✓
+  SVM            : B58L (Confidence: 0.859, Time: 12.7ms) ✗
+  Random Forest  : B5BL (Confidence: 0.602, Time: 35.6ms) ✓
+  CNN            : B5BL (Confidence: 0.904, Time: 204.1ms) ✓
+
+Sample 18/100: True text='N53S', Complexity=simple
+  KNN            : N53S (Confidence: 1.000, Time: 33.2ms) ✓
+  SVM            : N53S (Confidence: 0.987, Time: 13.3ms) ✓
+  Random Forest  : N53S (Confidence: 1.000, Time: 33.9ms) ✓
+  CNN            : N53S (Confidence: 0.999, Time: 214.9ms) ✓
+
+Sample 19/100: True text='SJZG', Complexity=hard
+  KNN            : SJZG (Confidence: 1.000, Time: 39.9ms) ✓
+  SVM            : SJZG (Confidence: 0.970, Time: 15.7ms) ✓
+  Random Forest  : SJZG (Confidence: 0.877, Time: 43.9ms) ✓
+  CNN            : SJZG (Confidence: 1.000, Time: 201.5ms) ✓
+
+Sample 20/100: True text='HMNL', Complexity=medium
+  KNN            : HMNL (Confidence: 1.000, Time: 33.0ms) ✓
+  SVM            : HMNL (Confidence: 0.978, Time: 12.9ms) ✓
+  Random Forest  : HMNL (Confidence: 0.838, Time: 34.6ms) ✓
+  CNN            : HMNL (Confidence: 1.000, Time: 205.3ms) ✓
+
+Sample 21/100: True text='NRXG', Complexity=simple
+  KNN            : NRXG (Confidence: 1.000, Time: 34.3ms) ✓
+  SVM            : NRXG (Confidence: 0.968, Time: 12.6ms) ✓
+  Random Forest  : NRXG (Confidence: 1.000, Time: 34.3ms) ✓
+  CNN            : NRXG (Confidence: 0.999, Time: 202.0ms) ✓
+
+Sample 22/100: True text='4FD5', Complexity=hard
+  KNN            : 4FD5 (Confidence: 1.000, Time: 33.4ms) ✓
+  SVM            : 4FD5 (Confidence: 0.949, Time: 12.9ms) ✓
+  Random Forest  : 4FD5 (Confidence: 0.677, Time: 39.1ms) ✓
+  CNN            : 4FD5 (Confidence: 0.999, Time: 215.9ms) ✓
+
+Sample 23/100: True text='QHFJ', Complexity=medium
+  KNN            : GHFJ (Confidence: 0.833, Time: 33.0ms) ✗
+  SVM            : GHFJ (Confidence: 0.938, Time: 13.5ms) ✗
+  Random Forest  : GHFJ (Confidence: 0.713, Time: 40.1ms) ✗
+  CNN            : QHFJ (Confidence: 0.860, Time: 205.7ms) ✓
+
+Sample 24/100: True text='7JGB', Complexity=medium
+  KNN            : 7JGB (Confidence: 0.917, Time: 35.4ms) ✓
+  SVM            : 7JGB (Confidence: 0.973, Time: 16.4ms) ✓
+  Random Forest  : 7JGB (Confidence: 0.883, Time: 65.6ms) ✓
+  CNN            : 7JGB (Confidence: 1.000, Time: 205.8ms) ✓
+
+Sample 25/100: True text='WT9M', Complexity=medium
+  KNN            : WT9M (Confidence: 1.000, Time: 41.8ms) ✓
+  SVM            : WT9M (Confidence: 0.816, Time: 12.8ms) ✓
+  Random Forest  : WT9M (Confidence: 0.748, Time: 34.7ms) ✓
+  CNN            : WT9M (Confidence: 0.995, Time: 280.8ms) ✓
+
+Sample 26/100: True text='LJP8', Complexity=medium
+  KNN            : LJF8 (Confidence: 0.833, Time: 33.7ms) ✗
+  SVM            : LJP8 (Confidence: 0.951, Time: 13.7ms) ✓
+  Random Forest  : LJP8 (Confidence: 0.827, Time: 39.8ms) ✓
+  CNN            : LJP8 (Confidence: 1.000, Time: 203.7ms) ✓
+
+Sample 27/100: True text='HQDM', Complexity=medium
+  KNN            : HQDM (Confidence: 1.000, Time: 33.5ms) ✓
+  SVM            : HQDM (Confidence: 0.882, Time: 13.2ms) ✓
+  Random Forest  : HQDM (Confidence: 0.797, Time: 35.7ms) ✓
+  CNN            : HCDM (Confidence: 0.882, Time: 205.0ms) ✗
+
+Sample 28/100: True text='E7P8', Complexity=medium
+  KNN            : B7P8 (Confidence: 0.917, Time: 33.1ms) ✗
+  SVM            : B7P8 (Confidence: 0.967, Time: 13.0ms) ✗
+  Random Forest  : E7P8 (Confidence: 0.710, Time: 34.1ms) ✓
+  CNN            : B7P8 (Confidence: 0.886, Time: 200.7ms) ✗
+
+Sample 29/100: True text='CVME', Complexity=medium
+  KNN            : QVME (Confidence: 0.917, Time: 33.9ms) ✗
+  SVM            : QVME (Confidence: 0.858, Time: 12.7ms) ✗
+  Random Forest  : CVME (Confidence: 0.748, Time: 36.7ms) ✓
+  CNN            : QVME (Confidence: 0.865, Time: 209.7ms) ✗
+
+Sample 30/100: True text='D8AT', Complexity=medium
+  KNN            : D8AT (Confidence: 0.917, Time: 43.6ms) ✓
+  SVM            : D8AT (Confidence: 0.978, Time: 15.2ms) ✓
+  Random Forest  : D8AT (Confidence: 0.927, Time: 35.6ms) ✓
+  CNN            : D8AT (Confidence: 1.000, Time: 205.1ms) ✓
+
+Sample 31/100: True text='YGYR', Complexity=hard
+  KNN            : YGYR (Confidence: 0.750, Time: 39.6ms) ✓
+  SVM            : YGYR (Confidence: 0.818, Time: 14.5ms) ✓
+  Random Forest  : YGYR (Confidence: 0.630, Time: 60.8ms) ✓
+  CNN            : YGYR (Confidence: 0.957, Time: 206.1ms) ✓
+
+Sample 32/100: True text='VTRX', Complexity=medium
+  KNN            : VTRX (Confidence: 1.000, Time: 33.5ms) ✓
+  SVM            : VTRX (Confidence: 0.981, Time: 12.9ms) ✓
+  Random Forest  : VTRX (Confidence: 0.858, Time: 34.1ms) ✓
+  CNN            : VTRX (Confidence: 0.984, Time: 233.5ms) ✓
+
+Sample 33/100: True text='KX9K', Complexity=simple
+  KNN            : KX9K (Confidence: 1.000, Time: 35.8ms) ✓
+  SVM            : KX9K (Confidence: 0.986, Time: 12.3ms) ✓
+  Random Forest  : KX9K (Confidence: 1.000, Time: 41.8ms) ✓
+  CNN            : KX9K (Confidence: 1.000, Time: 206.7ms) ✓
+
+Sample 34/100: True text='PACJ', Complexity=simple
+  KNN            : PACJ (Confidence: 1.000, Time: 33.1ms) ✓
+  SVM            : PACJ (Confidence: 0.970, Time: 12.1ms) ✓
+  Random Forest  : PACJ (Confidence: 0.985, Time: 33.8ms) ✓
+  CNN            : PACJ (Confidence: 0.999, Time: 199.8ms) ✓
+
+Sample 35/100: True text='QDKV', Complexity=simple
+  KNN            : QDKV (Confidence: 1.000, Time: 33.0ms) ✓
+  SVM            : QDKV (Confidence: 0.959, Time: 13.3ms) ✓
+  Random Forest  : QDKV (Confidence: 0.998, Time: 42.2ms) ✓
+  CNN            : QDKV (Confidence: 1.000, Time: 200.7ms) ✓
+
+Sample 36/100: True text='3VGA', Complexity=simple
+  KNN            : 3VGA (Confidence: 1.000, Time: 33.7ms) ✓
+  SVM            : 3VGA (Confidence: 0.977, Time: 12.1ms) ✓
+  Random Forest  : 3VGA (Confidence: 0.990, Time: 35.7ms) ✓
+  CNN            : 3VGA (Confidence: 1.000, Time: 209.2ms) ✓
+
+Sample 37/100: True text='KSKN', Complexity=medium
+  KNN            : KSKN (Confidence: 1.000, Time: 33.8ms) ✓
+  SVM            : KSKN (Confidence: 0.983, Time: 12.0ms) ✓
+  Random Forest  : KSKN (Confidence: 0.863, Time: 33.7ms) ✓
+  CNN            : KSKN (Confidence: 1.000, Time: 204.2ms) ✓
+
+Sample 38/100: True text='JNS6', Complexity=medium
+  KNN            : JNS6 (Confidence: 1.000, Time: 33.5ms) ✓
+  SVM            : JNS6 (Confidence: 0.993, Time: 13.5ms) ✓
+  Random Forest  : JNS6 (Confidence: 0.933, Time: 34.7ms) ✓
+  CNN            : JNS6 (Confidence: 1.000, Time: 203.4ms) ✓
+
+Sample 39/100: True text='3V99', Complexity=hard
+  KNN            : SV99 (Confidence: 0.917, Time: 33.4ms) ✗
+  SVM            : 7V99 (Confidence: 0.977, Time: 13.4ms) ✗
+  Random Forest  : 7V99 (Confidence: 0.680, Time: 33.8ms) ✗
+  CNN            : 3V99 (Confidence: 0.924, Time: 248.1ms) ✓
+
+Sample 40/100: True text='32H5', Complexity=simple
+  KNN            : 32H5 (Confidence: 1.000, Time: 34.2ms) ✓
+  SVM            : 32H5 (Confidence: 0.985, Time: 13.1ms) ✓
+  Random Forest  : 32H5 (Confidence: 1.000, Time: 35.2ms) ✓
+  CNN            : 32H5 (Confidence: 1.000, Time: 202.0ms) ✓
+
+Sample 41/100: True text='ARG7', Complexity=hard
+  KNN            : ARG7 (Confidence: 1.000, Time: 33.2ms) ✓
+  SVM            : ARG7 (Confidence: 0.975, Time: 12.1ms) ✓
+  Random Forest  : ARG7 (Confidence: 0.900, Time: 36.1ms) ✓
+  CNN            : ARG7 (Confidence: 0.995, Time: 204.1ms) ✓
+
+Sample 42/100: True text='VFTU', Complexity=simple
+  KNN            : VFTU (Confidence: 1.000, Time: 33.5ms) ✓
+  SVM            : VFTU (Confidence: 0.987, Time: 12.7ms) ✓
+  Random Forest  : VFTU (Confidence: 1.000, Time: 58.5ms) ✓
+  CNN            : VFTU (Confidence: 1.000, Time: 340.5ms) ✓
+
+Sample 43/100: True text='LZZQ', Complexity=simple
+  KNN            : LZZQ (Confidence: 1.000, Time: 33.9ms) ✓
+  SVM            : LZZQ (Confidence: 0.957, Time: 12.6ms) ✓
+  Random Forest  : LZZQ (Confidence: 1.000, Time: 56.1ms) ✓
+  CNN            : LZZQ (Confidence: 1.000, Time: 228.9ms) ✓
+
+Sample 44/100: True text='FSJG', Complexity=simple
+  KNN            : FSJG (Confidence: 1.000, Time: 34.5ms) ✓
+  SVM            : FSJG (Confidence: 0.980, Time: 13.4ms) ✓
+  Random Forest  : FSJG (Confidence: 1.000, Time: 34.1ms) ✓
+  CNN            : FSJG (Confidence: 1.000, Time: 204.2ms) ✓
+
+Sample 45/100: True text='HMBY', Complexity=hard
+  KNN            : FMBY (Confidence: 0.917, Time: 33.4ms) ✗
+  SVM            : FMBY (Confidence: 0.942, Time: 12.1ms) ✗
+  Random Forest  : FMBY (Confidence: 0.698, Time: 33.7ms) ✗
+  CNN            : FMBY (Confidence: 0.888, Time: 204.8ms) ✗
+
+Sample 46/100: True text='UFNW', Complexity=simple
+  KNN            : UFNW (Confidence: 1.000, Time: 33.1ms) ✓
+  SVM            : UFNW (Confidence: 0.976, Time: 12.7ms) ✓
+  Random Forest  : UFNW (Confidence: 0.998, Time: 37.0ms) ✓
+  CNN            : UFNW (Confidence: 1.000, Time: 271.3ms) ✓
+
+Sample 47/100: True text='5SJV', Complexity=medium
+  KNN            : 5SJV (Confidence: 1.000, Time: 33.2ms) ✓
+  SVM            : 5SJV (Confidence: 0.993, Time: 12.7ms) ✓
+  Random Forest  : 5SJV (Confidence: 0.855, Time: 36.5ms) ✓
+  CNN            : 5SJV (Confidence: 1.000, Time: 244.8ms) ✓
+
+Sample 48/100: True text='Y8B7', Complexity=medium
+  KNN            : Y8B7 (Confidence: 1.000, Time: 33.6ms) ✓
+  SVM            : Y8B7 (Confidence: 0.992, Time: 12.2ms) ✓
+  Random Forest  : Y8B7 (Confidence: 0.932, Time: 35.6ms) ✓
+  CNN            : Y8B7 (Confidence: 1.000, Time: 205.0ms) ✓
+
+Sample 49/100: True text='83QS', Complexity=simple
+  KNN            : 83QS (Confidence: 1.000, Time: 33.1ms) ✓
+  SVM            : 83QS (Confidence: 0.955, Time: 11.9ms) ✓
+  Random Forest  : 83QS (Confidence: 0.992, Time: 36.5ms) ✓
+  CNN            : 83QS (Confidence: 1.000, Time: 206.7ms) ✓
+
+Sample 50/100: True text='2YP5', Complexity=simple
+  KNN            : 2YP5 (Confidence: 1.000, Time: 33.6ms) ✓
+  SVM            : 2YP5 (Confidence: 0.985, Time: 13.7ms) ✓
+  Random Forest  : 2YP5 (Confidence: 1.000, Time: 41.9ms) ✓
+  CNN            : 2YP5 (Confidence: 1.000, Time: 207.0ms) ✓
+
+Sample 51/100: True text='T2C8', Complexity=hard
+  KNN            : T2C8 (Confidence: 0.917, Time: 33.3ms) ✓
+  SVM            : T2C8 (Confidence: 0.951, Time: 11.7ms) ✓
+  Random Forest  : T2C8 (Confidence: 0.772, Time: 33.7ms) ✓
+  CNN            : T2C8 (Confidence: 1.000, Time: 216.1ms) ✓
+
+Sample 52/100: True text='SFZ7', Complexity=simple
+  KNN            : SFZ7 (Confidence: 1.000, Time: 34.0ms) ✓
+  SVM            : SFZ7 (Confidence: 0.989, Time: 11.8ms) ✓
+  Random Forest  : SFZ7 (Confidence: 1.000, Time: 35.9ms) ✓
+  CNN            : SFZ7 (Confidence: 1.000, Time: 208.9ms) ✓
+
+Sample 53/100: True text='CGZV', Complexity=hard
+  KNN            : CCZV (Confidence: 0.833, Time: 34.5ms) ✗
+  SVM            : QQZV (Confidence: 0.648, Time: 14.2ms) ✗
+  Random Forest  : CGZV (Confidence: 0.560, Time: 58.8ms) ✓
+  CNN            : QQZV (Confidence: 0.727, Time: 214.4ms) ✗
+
+Sample 54/100: True text='S949', Complexity=simple
+  KNN            : S949 (Confidence: 1.000, Time: 33.5ms) ✓
+  SVM            : S949 (Confidence: 0.988, Time: 13.6ms) ✓
+  Random Forest  : S949 (Confidence: 0.998, Time: 33.9ms) ✓
+  CNN            : S949 (Confidence: 1.000, Time: 203.7ms) ✓
+
+Sample 55/100: True text='M7B3', Complexity=hard
+  KNN            : N7B3 (Confidence: 0.750, Time: 32.9ms) ✗
+  SVM            : N7B3 (Confidence: 0.688, Time: 14.0ms) ✗
+  Random Forest  : M7B3 (Confidence: 0.615, Time: 34.4ms) ✓
+  CNN            : M7B3 (Confidence: 0.873, Time: 212.0ms) ✓
+
+Sample 56/100: True text='LS98', Complexity=hard
+  KNN            : HS98 (Confidence: 0.833, Time: 33.5ms) ✗
+  SVM            : LS98 (Confidence: 0.887, Time: 13.1ms) ✓
+  Random Forest  : LS98 (Confidence: 0.823, Time: 34.1ms) ✓
+  CNN            : JS98 (Confidence: 0.902, Time: 211.5ms) ✗
+
+Sample 57/100: True text='ZCK8', Complexity=hard
+  KNN            : ZCK8 (Confidence: 1.000, Time: 33.8ms) ✓
+  SVM            : ZCK8 (Confidence: 0.983, Time: 13.9ms) ✓
+  Random Forest  : ZCK8 (Confidence: 0.807, Time: 34.2ms) ✓
+  CNN            : ZCK8 (Confidence: 0.947, Time: 205.7ms) ✓
+
+Sample 58/100: True text='59HD', Complexity=hard
+  KNN            : 59HD (Confidence: 1.000, Time: 33.8ms) ✓
+  SVM            : 59HD (Confidence: 0.988, Time: 14.0ms) ✓
+  Random Forest  : 59HD (Confidence: 0.845, Time: 34.2ms) ✓
+  CNN            : 59HD (Confidence: 1.000, Time: 206.1ms) ✓
+
+Sample 59/100: True text='BJFA', Complexity=simple
+  KNN            : BJFA (Confidence: 1.000, Time: 33.7ms) ✓
+  SVM            : BJFA (Confidence: 0.980, Time: 11.9ms) ✓
+  Random Forest  : BJFA (Confidence: 0.985, Time: 33.9ms) ✓
+  CNN            : BJFA (Confidence: 1.000, Time: 209.6ms) ✓
+
+Sample 60/100: True text='QH23', Complexity=medium
+  KNN            : QH23 (Confidence: 1.000, Time: 34.1ms) ✓
+  SVM            : QH23 (Confidence: 0.916, Time: 14.1ms) ✓
+  Random Forest  : QH23 (Confidence: 0.750, Time: 35.2ms) ✓
+  CNN            : GH23 (Confidence: 0.912, Time: 269.9ms) ✗
+
+Sample 61/100: True text='JELZ', Complexity=medium
+  KNN            : JELZ (Confidence: 0.917, Time: 34.7ms) ✓
+  SVM            : JELZ (Confidence: 0.979, Time: 15.5ms) ✓
+  Random Forest  : JELZ (Confidence: 0.875, Time: 37.6ms) ✓
+  CNN            : JELZ (Confidence: 1.000, Time: 220.5ms) ✓
+
+Sample 62/100: True text='GUB4', Complexity=hard
+  KNN            : CUB4 (Confidence: 0.833, Time: 40.2ms) ✗
+  SVM            : QUB4 (Confidence: 0.851, Time: 17.6ms) ✗
+  Random Forest  : CUB4 (Confidence: 0.633, Time: 50.0ms) ✗
+  CNN            : QUB4 (Confidence: 0.853, Time: 205.0ms) ✗
+
+Sample 63/100: True text='67XM', Complexity=medium
+  KNN            : 67XM (Confidence: 1.000, Time: 36.5ms) ✓
+  SVM            : 67XM (Confidence: 0.976, Time: 17.0ms) ✓
+  Random Forest  : 67XM (Confidence: 0.890, Time: 53.6ms) ✓
+  CNN            : 67XM (Confidence: 1.000, Time: 206.0ms) ✓
+
+Sample 64/100: True text='PTAA', Complexity=medium
+  KNN            : PTAA (Confidence: 1.000, Time: 33.1ms) ✓
+  SVM            : PTAA (Confidence: 0.993, Time: 13.7ms) ✓
+  Random Forest  : PTAA (Confidence: 0.958, Time: 36.4ms) ✓
+  CNN            : PTAA (Confidence: 0.888, Time: 240.0ms) ✓
+
+Sample 65/100: True text='Q59H', Complexity=simple
+  KNN            : Q59H (Confidence: 1.000, Time: 34.1ms) ✓
+  SVM            : Q59H (Confidence: 0.962, Time: 13.7ms) ✓
+  Random Forest  : Q59H (Confidence: 1.000, Time: 40.2ms) ✓
+  CNN            : Q59H (Confidence: 1.000, Time: 203.2ms) ✓
+
+Sample 66/100: True text='BVJY', Complexity=medium
+  KNN            : BVJY (Confidence: 0.917, Time: 33.4ms) ✓
+  SVM            : EVJY (Confidence: 0.962, Time: 14.1ms) ✗
+  Random Forest  : BVJY (Confidence: 0.858, Time: 38.3ms) ✓
+  CNN            : BVJY (Confidence: 0.895, Time: 226.2ms) ✓
+
+Sample 67/100: True text='BX34', Complexity=simple
+  KNN            : BX34 (Confidence: 1.000, Time: 40.0ms) ✓
+  SVM            : BX34 (Confidence: 0.979, Time: 14.4ms) ✓
+  Random Forest  : BX34 (Confidence: 0.985, Time: 35.2ms) ✓
+  CNN            : BX34 (Confidence: 1.000, Time: 200.3ms) ✓
+
+Sample 68/100: True text='9BYT', Complexity=medium
+  KNN            : 9BYT (Confidence: 1.000, Time: 33.3ms) ✓
+  SVM            : 9BYT (Confidence: 0.741, Time: 13.6ms) ✓
+  Random Forest  : 9BYT (Confidence: 0.560, Time: 34.4ms) ✓
+  CNN            : 9BYE (Confidence: 1.000, Time: 207.9ms) ✗
+
+Sample 69/100: True text='S9Z7', Complexity=simple
+  KNN            : S9Z7 (Confidence: 1.000, Time: 33.6ms) ✓
+  SVM            : S9Z7 (Confidence: 0.988, Time: 13.9ms) ✓
+  Random Forest  : S9Z7 (Confidence: 1.000, Time: 35.6ms) ✓
+  CNN            : S9Z7 (Confidence: 1.000, Time: 215.3ms) ✓
+
+Sample 70/100: True text='QNJF', Complexity=hard
+  KNN            : 6NJF (Confidence: 0.833, Time: 34.5ms) ✗
+  SVM            : QNJF (Confidence: 0.819, Time: 14.8ms) ✓
+  Random Forest  : GNJF (Confidence: 0.728, Time: 36.1ms) ✗
+  CNN            : QNJF (Confidence: 0.850, Time: 206.4ms) ✓
+
+Sample 71/100: True text='DLCC', Complexity=simple
+  KNN            : DLCC (Confidence: 1.000, Time: 33.5ms) ✓
+  SVM            : DLCC (Confidence: 0.969, Time: 12.6ms) ✓
+  Random Forest  : DLCC (Confidence: 1.000, Time: 33.4ms) ✓
+  CNN            : DLCC (Confidence: 1.000, Time: 214.6ms) ✓
+
+Sample 72/100: True text='M4KY', Complexity=medium
+  KNN            : M4KY (Confidence: 1.000, Time: 33.6ms) ✓
+  SVM            : M4KY (Confidence: 0.983, Time: 13.5ms) ✓
+  Random Forest  : M4KY (Confidence: 0.880, Time: 34.3ms) ✓
+  CNN            : M4KY (Confidence: 0.976, Time: 204.8ms) ✓
+
+Sample 73/100: True text='ZGUA', Complexity=medium
+  KNN            : ZGUA (Confidence: 0.917, Time: 33.2ms) ✓
+  SVM            : 2GUA (Confidence: 0.968, Time: 13.6ms) ✗
+  Random Forest  : ZGUA (Confidence: 0.835, Time: 40.1ms) ✓
+  CNN            : ZGUA (Confidence: 0.882, Time: 206.0ms) ✓
+
+Sample 74/100: True text='M8MX', Complexity=medium
+  KNN            : M8MX (Confidence: 1.000, Time: 44.1ms) ✓
+  SVM            : M8MX (Confidence: 0.983, Time: 17.3ms) ✓
+  Random Forest  : M8MX (Confidence: 0.915, Time: 44.7ms) ✓
+  CNN            : M8MX (Confidence: 0.963, Time: 204.2ms) ✓
+
+Sample 75/100: True text='WM2S', Complexity=medium
+  KNN            : WM2S (Confidence: 1.000, Time: 33.6ms) ✓
+  SVM            : WM2S (Confidence: 0.780, Time: 13.9ms) ✓
+  Random Forest  : WM2S (Confidence: 0.595, Time: 34.2ms) ✓
+  CNN            : QM2S (Confidence: 0.842, Time: 252.9ms) ✗
+
+Sample 76/100: True text='S9X7', Complexity=medium
+  KNN            : S9X7 (Confidence: 1.000, Time: 45.2ms) ✓
+  SVM            : S9X7 (Confidence: 0.995, Time: 18.4ms) ✓
+  Random Forest  : S9X7 (Confidence: 0.970, Time: 76.8ms) ✓
+  CNN            : S9X7 (Confidence: 1.000, Time: 227.5ms) ✓
+
+Sample 77/100: True text='GL9C', Complexity=hard
+  KNN            : GL9C (Confidence: 1.000, Time: 33.4ms) ✓
+  SVM            : GL9C (Confidence: 0.948, Time: 11.7ms) ✓
+  Random Forest  : GL9C (Confidence: 0.883, Time: 35.6ms) ✓
+  CNN            : QL9C (Confidence: 0.869, Time: 205.5ms) ✗
+
+Sample 78/100: True text='6B33', Complexity=hard
+  KNN            : 6B33 (Confidence: 1.000, Time: 33.6ms) ✓
+  SVM            : 6B33 (Confidence: 0.983, Time: 14.1ms) ✓
+  Random Forest  : 6B33 (Confidence: 0.810, Time: 33.7ms) ✓
+  CNN            : 6B33 (Confidence: 1.000, Time: 236.3ms) ✓
+
+Sample 79/100: True text='7FFG', Complexity=hard
+  KNN            : 7FFG (Confidence: 0.917, Time: 34.0ms) ✓
+  SVM            : 7FFG (Confidence: 0.989, Time: 13.9ms) ✓
+  Random Forest  : 7FFG (Confidence: 0.820, Time: 37.2ms) ✓
+  CNN            : 7FFG (Confidence: 0.999, Time: 242.9ms) ✓
+
+Sample 80/100: True text='QTQJ', Complexity=hard
+  KNN            : GTQJ (Confidence: 0.917, Time: 33.0ms) ✗
+  SVM            : GTQJ (Confidence: 0.956, Time: 13.4ms) ✗
+  Random Forest  : GTQJ (Confidence: 0.808, Time: 62.8ms) ✗
+  CNN            : QTQJ (Confidence: 0.861, Time: 243.4ms) ✓
+
+Sample 81/100: True text='39GC', Complexity=medium
+  KNN            : 39GC (Confidence: 1.000, Time: 38.6ms) ✓
+  SVM            : 39GC (Confidence: 0.915, Time: 20.7ms) ✓
+  Random Forest  : 39GC (Confidence: 0.833, Time: 59.1ms) ✓
+  CNN            : 39GC (Confidence: 1.000, Time: 209.1ms) ✓
+
+Sample 82/100: True text='V3WE', Complexity=hard
+  KNN            : V3WE (Confidence: 0.917, Time: 33.3ms) ✓
+  SVM            : V3WE (Confidence: 0.960, Time: 13.7ms) ✓
+  Random Forest  : V3WE (Confidence: 0.802, Time: 38.0ms) ✓
+  CNN            : V3WE (Confidence: 0.999, Time: 208.7ms) ✓
+
+Sample 83/100: True text='ZNWW', Complexity=hard
+  KNN            : ZNWW (Confidence: 0.917, Time: 32.9ms) ✓
+  SVM            : 2NWW (Confidence: 0.869, Time: 13.5ms) ✗
+  Random Forest  : ZNWW (Confidence: 0.703, Time: 35.1ms) ✓
+  CNN            : 2NWW (Confidence: 0.914, Time: 202.2ms) ✗
+
+Sample 84/100: True text='RBG2', Complexity=hard
+  KNN            : RBG2 (Confidence: 1.000, Time: 33.3ms) ✓
+  SVM            : RBG2 (Confidence: 0.968, Time: 12.8ms) ✓
+  Random Forest  : RBG2 (Confidence: 0.932, Time: 37.9ms) ✓
+  CNN            : RBG2 (Confidence: 0.884, Time: 211.5ms) ✓
+
+Sample 85/100: True text='9M4Z', Complexity=medium
+  KNN            : 9M4Z (Confidence: 1.000, Time: 34.0ms) ✓
+  SVM            : 9M4Z (Confidence: 0.855, Time: 13.3ms) ✓
+  Random Forest  : 9M4Z (Confidence: 0.688, Time: 35.8ms) ✓
+  CNN            : 9M4Z (Confidence: 0.949, Time: 200.7ms) ✓
+
+Sample 86/100: True text='8MQB', Complexity=simple
+  KNN            : 8MQB (Confidence: 1.000, Time: 33.1ms) ✓
+  SVM            : 8MQB (Confidence: 0.953, Time: 13.4ms) ✓
+  Random Forest  : 8MQB (Confidence: 1.000, Time: 40.4ms) ✓
+  CNN            : 8MQB (Confidence: 1.000, Time: 205.0ms) ✓
+
+Sample 87/100: True text='NHBF', Complexity=medium
+  KNN            : NHBF (Confidence: 0.917, Time: 33.1ms) ✓
+  SVM            : NHB4 (Confidence: 0.620, Time: 13.0ms) ✗
+  Random Forest  : NHBF (Confidence: 0.573, Time: 37.6ms) ✓
+  CNN            : NLBE (Confidence: 0.879, Time: 245.8ms) ✗
+
+Sample 88/100: True text='ZQXP', Complexity=hard
+  KNN            : ZCXP (Confidence: 0.833, Time: 36.8ms) ✗
+  SVM            : ZQXP (Confidence: 0.695, Time: 12.9ms) ✓
+  Random Forest  : ZCXP (Confidence: 0.503, Time: 34.4ms) ✗
+  CNN            : ZQXP (Confidence: 0.787, Time: 202.3ms) ✓
+
+Sample 89/100: True text='BDHC', Complexity=hard
+  KNN            : BDHC (Confidence: 0.833, Time: 33.6ms) ✓
+  SVM            : BDHC (Confidence: 0.934, Time: 13.5ms) ✓
+  Random Forest  : BDHC (Confidence: 0.752, Time: 38.8ms) ✓
+  CNN            : EDHC (Confidence: 0.870, Time: 212.3ms) ✗
+
+Sample 90/100: True text='L5ZX', Complexity=simple
+  KNN            : L5ZX (Confidence: 1.000, Time: 33.9ms) ✓
+  SVM            : L5ZX (Confidence: 0.986, Time: 13.0ms) ✓
+  Random Forest  : L5ZX (Confidence: 1.000, Time: 34.0ms) ✓
+  CNN            : L5ZX (Confidence: 1.000, Time: 205.6ms) ✓
+
+Sample 91/100: True text='KE5E', Complexity=medium
+  KNN            : KF5E (Confidence: 1.000, Time: 33.4ms) ✗
+  SVM            : KE5E (Confidence: 0.983, Time: 12.8ms) ✓
+  Random Forest  : KE5E (Confidence: 0.843, Time: 34.0ms) ✓
+  CNN            : KE5E (Confidence: 1.000, Time: 207.0ms) ✓
+
+Sample 92/100: True text='EKMP', Complexity=medium
+  KNN            : EKMP (Confidence: 0.917, Time: 33.8ms) ✓
+  SVM            : BKMP (Confidence: 0.947, Time: 13.0ms) ✗
+  Random Forest  : BKMP (Confidence: 0.750, Time: 34.1ms) ✗
+  CNN            : BKMP (Confidence: 0.907, Time: 204.7ms) ✗
+
+Sample 93/100: True text='XF8Q', Complexity=hard
+  KNN            : XF8Q (Confidence: 0.833, Time: 34.9ms) ✓
+  SVM            : XF8Q (Confidence: 0.902, Time: 13.6ms) ✓
+  Random Forest  : XF8Q (Confidence: 0.745, Time: 39.8ms) ✓
+  CNN            : XF8Q (Confidence: 0.971, Time: 205.5ms) ✓
+
+Sample 94/100: True text='W4KM', Complexity=hard
+  KNN            : W4KM (Confidence: 1.000, Time: 33.8ms) ✓
+  SVM            : W4KM (Confidence: 0.857, Time: 12.8ms) ✓
+  Random Forest  : W4KM (Confidence: 0.790, Time: 34.6ms) ✓
+  CNN            : W4KM (Confidence: 0.943, Time: 232.1ms) ✓
+
+Sample 95/100: True text='2YRB', Complexity=simple
+  KNN            : 2YRB (Confidence: 1.000, Time: 33.4ms) ✓
+  SVM            : 2YRB (Confidence: 0.974, Time: 13.8ms) ✓
+  Random Forest  : 2YRB (Confidence: 1.000, Time: 33.6ms) ✓
+  CNN            : 2YRB (Confidence: 1.000, Time: 205.0ms) ✓
+
+Sample 96/100: True text='NAL8', Complexity=medium
+  KNN            : NAL8 (Confidence: 0.917, Time: 33.9ms) ✓
+  SVM            : NAL8 (Confidence: 0.971, Time: 14.4ms) ✓
+  Random Forest  : NAL8 (Confidence: 0.738, Time: 37.3ms) ✓
+  CNN            : NAL8 (Confidence: 0.932, Time: 238.6ms) ✓
+
+Sample 97/100: True text='GLZA', Complexity=medium
+  KNN            : GLZA (Confidence: 0.917, Time: 36.4ms) ✓
+  SVM            : GLZA (Confidence: 0.855, Time: 20.2ms) ✓
+  Random Forest  : GLZA (Confidence: 0.828, Time: 56.9ms) ✓
+  CNN            : QLZA (Confidence: 0.868, Time: 226.0ms) ✗
+
+Sample 98/100: True text='6K9P', Complexity=medium
+  KNN            : 6K9P (Confidence: 1.000, Time: 35.7ms) ✓
+  SVM            : 6K9P (Confidence: 0.988, Time: 16.8ms) ✓
+  Random Forest  : 6K9P (Confidence: 0.875, Time: 59.8ms) ✓
+  CNN            : 6K9P (Confidence: 1.000, Time: 251.9ms) ✓
+
+Sample 99/100: True text='BFRF', Complexity=medium
+  KNN            : BFRF (Confidence: 1.000, Time: 33.7ms) ✓
+  SVM            : BFRF (Confidence: 0.982, Time: 13.2ms) ✓
+  Random Forest  : BFRF (Confidence: 0.795, Time: 35.1ms) ✓
+  CNN            : BFRF (Confidence: 0.898, Time: 212.6ms) ✓
+
+Sample 100/100: True text='3U2F', Complexity=hard
+  KNN            : 3U2F (Confidence: 1.000, Time: 33.4ms) ✓
+  SVM            : 3U2F (Confidence: 0.979, Time: 13.1ms) ✓
+  Random Forest  : 3U2F (Confidence: 0.833, Time: 42.0ms) ✓
+  CNN            : 3U2F (Confidence: 1.000, Time: 204.0ms) ✓
+
+============================================================
+TEST RESULTS SUMMARY
+============================================================
+Model          Accuracy  Correct/Total  Avg Time  
+--------------------------------------------------
+KNN            0.8200    82/100         34.7ms    
+SVM            0.8300    83/100         13.8ms    
+Random Forest  0.9100    91/100         40.4ms    
+CNN            0.8000    80/100         216.7ms   
+
+============================================================
+COMPLEXITY ANALYSIS
+============================================================
+Complexity  Model          Accuracy  Correct/Total  
+----------------------------------------------------
+simple      KNN            1.0000    30/30          
+simple      SVM            1.0000    30/30          
+simple      Random Forest  1.0000    30/30          
+simple      CNN            1.0000    30/30          
+medium      KNN            0.8571    30/35          
+medium      SVM            0.8000    28/35          
+medium      Random Forest  0.9429    33/35          
+medium      CNN            0.7143    25/35          
+hard        KNN            0.6286    22/35          
+hard        SVM            0.7143    25/35          
+hard        Random Forest  0.8000    28/35          
+hard        CNN            0.7143    25/35          
+
+============================================================
+DETAILED ERROR ANALYSIS
+============================================================
+
+KNN Model:
+  Incorrect samples (18):
+    Sample 2: True='X8R5', Pred='X8P5', Confidence=0.917
+    Sample 8: True='EWYH', Pred='BWYH', Confidence=0.833
+    Sample 10: True='WXSG', Pred='W7SG', Confidence=0.750
+    Sample 11: True='9ESL', Pred='9BSL', Confidence=0.833
+    Sample 22: True='QHFJ', Pred='GHFJ', Confidence=0.833
+
+SVM Model:
+  Incorrect samples (17):
+    Sample 8: True='EWYH', Pred='BWXH', Confidence=0.734
+    Sample 11: True='9ESL', Pred='9FSL', Confidence=0.784
+    Sample 16: True='B5BL', Pred='B58L', Confidence=0.859
+    Sample 22: True='QHFJ', Pred='GHFJ', Confidence=0.938
+    Sample 27: True='E7P8', Pred='B7P8', Confidence=0.967
+
+Random Forest Model:
+  Incorrect samples (9):
+    Sample 8: True='EWYH', Pred='BWYH', Confidence=0.675
+    Sample 22: True='QHFJ', Pred='GHFJ', Confidence=0.713
+    Sample 38: True='3V99', Pred='7V99', Confidence=0.680
+    Sample 44: True='HMBY', Pred='FMBY', Confidence=0.698
+    Sample 61: True='GUB4', Pred='CUB4', Confidence=0.633
+
+CNN Model:
+  Incorrect samples (20):
+    Sample 1: True='WAUB', Pred='V4UB', Confidence=0.871
+    Sample 6: True='PZH3', Pred='RZH3', Confidence=0.875
+    Sample 8: True='EWYH', Pred='BWYH', Confidence=0.902
+    Sample 9: True='EVEE', Pred='BVEE', Confidence=0.900
+    Sample 26: True='HQDM', Pred='HCDM', Confidence=0.882
+
+Results saved to results/test_results_summary.txt
+Charts saved to results/model_testing_results.png
